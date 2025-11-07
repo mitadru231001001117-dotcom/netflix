@@ -1,0 +1,28 @@
+
+# Netflix EDA Dashboard
+
+An interactive Streamlit app to explore the Netflix dataset. The dashboard allows users to visualize and analyze Netflix content through various plots and insights.
+
+## Features
+
+- **Dataset Preview**: View the first few rows of the dataset.  
+- **Data Cleaning**: Fill missing values, convert dates, and extract numeric durations.  
+- **Missing Data Heatmap**: Identify missing values visually.  
+- **Movies vs TV Shows**: Compare counts of movies and TV shows.  
+- **Titles Added Per Year**: Track the number of titles added annually.  
+- **Top 10 Genres & Countries**: See the most common genres and countries of production.  
+- **Ratings Distribution**: Analyze the distribution of content ratings.  
+- **Movie Duration Distribution**: Explore how long movies typically last.  
+- **TV Show Season Counts**: Check the distribution of TV show seasons.  
+- **Top 10 Actors & Directors**: Discover the most frequent actors and directors.  
+- **Correlation Heatmap**: Analyze correlations between release year, added year, and duration.  
+- **Global Distribution Map**: Interactive world map showing where content originates.
+
+## Technologies Used
+
+- Python 3.x  
+- Pandas for data manipulation  
+- Matplotlib, Seaborn for visualizations  
+- Plotly for interactive maps  
+
+- Streamlit for the interactive dashboard  
